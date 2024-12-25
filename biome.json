@@ -96,11 +96,9 @@
       "include": ["**/*.{ts,tsx}"],
       "linter": { "rules": { "correctness": { "noUnusedVariables": "error" } } }
     },
-    { "include": [".eslintrc.cjs"] },
     {
       "include": ["**/*.{ts,tsx}"],
       "linter": { "rules": { "correctness": { "noUnusedVariables": "error" } } }
-    },
-    { "include": [".eslintrc.cjs"] }
+    }
   ]
 }
