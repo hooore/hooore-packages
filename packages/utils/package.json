@@ -1,14 +1,28 @@
 {
   "name": "@hooore/utils",
   "version": "1.0.0",
-  "main": "./build/index.js",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
   "scripts": {
-    "build": "tsc",
+    "build": "tsup",
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
     "@hooore/eslint-config": "workspace:*",
-    "@hooore/typescript-config": "workspace:*"
+    "@hooore/typescript-config": "workspace:*",
+    "tsup": "^8.3.5"
   },
   "dependencies": {
     "clsx": "^2.1.1",
