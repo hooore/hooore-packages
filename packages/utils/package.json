@@ -1,0 +1,17 @@
+{
+  "name": "@hooore/utils",
+  "version": "1.0.0",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@hooore/eslint-config": "workspace:*",
+    "@hooore/typescript-config": "workspace:*"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.2"
+  }
+}
