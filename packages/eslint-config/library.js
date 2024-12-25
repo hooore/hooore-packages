@@ -48,7 +48,6 @@ module.exports = {
         "plugin:import/recommended",
         "plugin:import/typescript",
         "prettier",
-        "turbo",
       ],
       rules: {
         "@typescript-eslint/no-unused-vars": [

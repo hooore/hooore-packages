@@ -41,7 +41,6 @@ module.exports = {
         "plugin:react-hooks/recommended",
         "plugin:jsx-a11y/recommended",
         "prettier",
-        "turbo",
       ],
       settings: {
         react: {
@@ -84,7 +83,6 @@ module.exports = {
         "plugin:import/recommended",
         "plugin:import/typescript",
         "prettier",
-        "turbo",
       ],
       rules: {
         "@typescript-eslint/no-unused-vars": [
